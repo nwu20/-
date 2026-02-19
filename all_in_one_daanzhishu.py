@@ -8,7 +8,7 @@ st.set_page_config(page_title="终极答案之书", page_icon="🔮")
 books_data = {
     "👑 甄嬛传": {
         "title": "🦚 寿康宫",
-        "color": "#FFC0CB",  # 少女/贵气粉
+        "color": "#D23669",  # 少女/贵气粉
         "subtitle": "心中默念困惑。自有娘娘指点迷津。",
         "btn_draw": "✨ 请小主开示 ✨",
         "btn_redraw": "🔄 退下吧，本宫要重新抽签",
@@ -111,11 +111,11 @@ books_data = {
             {"text": "上下挥霍无度，便掠之于民；民变在即，便掠之于商。", "role": "沈一石", "advice": "建议：看透食物链的残酷真相。身处下位时，务必懂得隐藏实力保全自己。"}
         ]   
     },
-    "🥊 马大帅/范德彪": {
-        "title": "🥊 开原维多利亚",
-        "color": "#FF4500",  # 东北热血橙
+    "👨🏻‍🌾 马大帅": {
+        "title": "🕶️ 开原维多利亚",
+        "color": "#B22222",  # 东北热血橙
         "subtitle": "咔咔一顿整。听听辽北第一狠人的处世哲学。",
-        "btn_draw": "🥊 仰仗彪哥，请教这道上的事儿",
+        "btn_draw": "🙏 仰仗彪哥，请教这道上的事儿",
         "btn_redraw": "🔄 翻篇了，这就是一场梦",
         "footer": "论成败人生豪迈，大不了重头再来。",
         "quotes": [
@@ -135,7 +135,7 @@ books_data = {
 
 # 3. 左侧边栏设计
 st.sidebar.title("🔮 答案之书")
-st.sidebar.markdown("请选择你要查阅的系统：")
+st.sidebar.markdown("你要进入哪个宇宙？")
 book_choice = st.sidebar.radio("", list(books_data.keys()))
 
 # 4. 状态管理
