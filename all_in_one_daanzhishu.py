@@ -154,20 +154,15 @@ if 'drawn' not in st.session_state:
 # 5. 获取当前选中的内容
 current_data = books_data[book_choice]
 
-# 注入动态样式：改变标题颜色和按钮阴影
+# 6. 主界面渲染 - 这里的 HTML 确保颜色能出来
 st.markdown(f"""
-    <style>
-    .main-title {{
-        color: {current_data['color']};
-        text-shadow: 1px 1px 2px #000;
-    }}
-    </style>
+    <div style="text-align: center; padding: 20px; border-radius: 10px; background-color: {current_data['color']}20; border-left: 10px solid {current_data['color']};">
+        <h1 style="color: {current_data['color']}; margin-bottom: 0;">{current_data['title']}</h1>
+        <p style="color: #666; font-size: 1.2em; margin-top: 10px;">{current_data['subtitle']}</p>
+    </div>
     """, unsafe_allow_html=True)
 
-# 6. 主界面渲染
-st.markdown(f"<h1 class='main-title'>{current_data['title']}</h1>", unsafe_allow_html=True)
-st.subheader(current_data["subtitle"])
-st.markdown("---")
+st.markdown("<br>", unsafe_allow_html=True)
 
 # 7. 交互逻辑
 if not st.session_state.drawn:
@@ -177,10 +172,16 @@ if not st.session_state.drawn:
         st.rerun()
 else:
     res = st.session_state.result
-    # 使用 info 和 success 容器，颜色会根据 streamlit 默认样式变化
+    # 结果展示区
     st.info(f"「 {res['text']} 」")
     st.caption(f"—— {res['role']}")
-    st.success(f"**【批示】** {res['advice']}")
+    
+    # 指点区：也带上主题色
+    st.markdown(f"""
+        <div style="padding: 15px; border-radius: 5px; background-color: {current_data['color']}10; border: 1px dashed {current_data['color']};">
+            <span style="color: {current_data['color']}; font-weight: bold;">【批示】</span> {res['advice']}
+        </div>
+        """, unsafe_allow_html=True)
     
     st.markdown("---")
     
