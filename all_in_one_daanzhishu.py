@@ -138,7 +138,7 @@ books_data = {
     "🎵 mla：獨立音樂宇宙": {
         "title": "🎧 荔枝角公園",
         "color": "#4B6584",  # Lo-Fi 憂鬱藍灰
-        "subtitle": "在一個不屬於我們的時代，保持一點點疏離",
+        "subtitle": "在动物园散步才是正经事",
         "btn_draw": "🎵 戴上耳機，按下播放鍵",
         "btn_redraw": "⏪ 切到下一首",
         "btn_explain": "❓ 點解",  # 专属的解释按钮文案
