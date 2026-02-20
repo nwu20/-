@@ -13,8 +13,9 @@ books_data = {
         "btn_draw": "✨ 请小主开示 ✨",
         "btn_redraw": "🔄 退下吧，本宫要重新抽签",
         "footer": "大梦一场，终须醒。仅供娱乐。",
+        "explain_prefix": "娘娘解释道：",
         "quotes": [
-            {"text": "别人帮你，那是情分，不帮你，那是本分。", "role": "甄嬛", "advice": "建议：降低对他人的期待，万事靠自己。"},
+            {"text": "别人帮你，那是情分，不帮你，那是本分。", "role": "甄嬛", "advice": "建议：降低对他人的期待，万事靠自己。", "detail": "真真是一片痴心错付了。你要知道，这宫里的路从来都是一个人的，指望别人拉一把，不如指望自己站得稳。"},
             {"text": "容不容得下是娘娘的气度，能不能让娘娘容下是嫔妾的本事。", "role": "甄嬛", "advice": "建议：与其抱怨大环境，不如修炼真本事。"},
             {"text": "在这后宫中想要升，就必须猜得中皇上的心思。若想要活，就要猜得中其他女人的心思。", "role": "甄嬛", "advice": "建议：向上管理和同级管理，两手都要抓。"},
             {"text": "与其心生敬佩，不如自己便是那样的人。", "role": "甄嬛", "advice": "建议：别光顾着羡慕别人，立刻行动起来。"},
@@ -24,7 +25,7 @@ books_data = {
             {"text": "喜怒不形于色，心事勿让人知。", "role": "甄嬛", "advice": "建议：低调做人，别把底牌全亮给别人。"},
             {"text": "再冷，也不该拿别人的血来暖自己。", "role": "甄嬛", "advice": "建议：守住底线，别为了私利去做亏心事。"},
             {"text": "在这宫里，有利用价值的人才能活下去。", "role": "浣碧", "advice": "建议：现实一点，提升自己的不可替代性。"},
-            {"text": "这几年的情爱与时光，终究是错付了！", "role": "甄嬛", "advice": "建议：及时止损，莫再纠缠烂桃花。"},
+            {"text": "这几年的情爱与时光，终究是错付了！", "role": "甄嬛", "advice": "建议：及时止损，莫再纠缠烂桃花。", "detail": "想来你心中定是不甘。只是这枯木难逢春，若是良人已成路人，再纠缠下去，怕是连最后那点尊严也保不住了。"},
             {"text": "那年杏花微雨，你说你是果郡王，或许从一开始便都是错的。", "role": "甄嬛", "advice": "建议：复盘一下，方向可能从一开始就跑偏了。"},
             {"text": "其实这世上谁离了谁都一样活，只是活得好不好的问题罢了。", "role": "沈眉庄", "advice": "建议：别太把某人当回事，地球没谁都照样转。"},
             {"text": "不过是把你当成了纯元皇后的替身罢了！", "role": "皇后", "advice": "建议：警惕自己是不是成了别人的“平替”或备胎。"},
@@ -34,7 +35,7 @@ books_data = {
             {"text": "任何时候都不要为不值得的人、不值得的事费时间、费心力。", "role": "甄嬛", "advice": "建议：断舍离！把宝贵的精力留给自己。"},
             {"text": "有些事，如果不说出来就是一个心结，说出来了就是一个耳光。", "role": "甄嬛", "advice": "建议：看破不说破，糊涂一点反而好。"},
             {"text": "情不知所起，一往而情深。", "role": "果郡王", "advice": "建议：听从内心的声音，勇敢去爱吧。"},
-            {"text": "贱人就是矫情！", "role": "华妃", "advice": "建议：对付作精，千万别留情面。"},
+            {"text": "贱人就是矫情！", "role": "华妃", "advice": "建议：对付作精，千万别留情面。", "detail": "本宫最见不得那起子矫揉造作的人。若是有人存心给你添堵，你便直接打发了去，何苦自寻烦恼？"},
             {"text": "臣妾做不到啊！", "role": "皇后", "advice": "建议：遇到不想接的锅，大声勇敢地拒绝！"},
             {"text": "这福气给你要不要啊？", "role": "叶澜依", "advice": "建议：别听别人画大饼，他不干的事你也别接。"},
             {"text": "翠果，打烂她的嘴。", "role": "齐妃", "advice": "建议：忍无可忍无需再忍，该出手时就出手。"},
@@ -63,9 +64,10 @@ books_data = {
         "btn_draw": "☎️ 拨通专线，请站长指示",
         "btn_redraw": "挂断电话，重新请示",
         "footer": "绝密档案。阅后即焚。",
+        "explain_prefix": "站长压低声音说：",
         "quotes": [
-            {"text": "凝聚意志，保卫领袖，这八个字我研究了十五年，结果就是两个字：搞钱！", "role": "吴敬中", "advice": "建议：看透事物本质。别被虚假的口号忽悠。"},
-            {"text": "嘴上都是主义，那心里全是生意。", "role": "吴敬中", "advice": "建议：别听别人唱高调。多看看他背后的利益驱动。"},
+            {"text": "凝聚意志，保卫领袖，这八个字我研究了十五年，结果就是两个字：搞钱！", "role": "吴敬中", "advice": "建议：看透事物本质。别被虚假的口号忽悠。", "detail": "年轻人，别整天谈那些虚头巴脑的理想。这世界转来转去，最后拼的都是兜里的实力。懂了吗？"},
+            {"text": "嘴上都是主义，那心里全是生意。", "role": "吴敬中", "advice": "建议：别听别人唱高调。多看看他背后的利益驱动。", "detail": "他跟你谈情怀，那是想让你白干活。你得看他背地里在算计什么。这就是职场，这就是生意。"},
             {"text": "你断人家的财路，人家会断你的生路。", "role": "吴敬中", "advice": "建议：职场大忌。千万别乱动别人的蛋糕。"},
             {"text": "有人缘，就是有能力呀！", "role": "吴敬中", "advice": "建议：别光顾着埋头干活。搞好人际关系也是硬实力。"},
             {"text": "什么叫不合适？合适都是讲条件的。", "role": "吴敬中", "advice": "建议：别急着拒绝。筹码给够了什么都好谈。"},
@@ -88,8 +90,9 @@ books_data = {
         "btn_draw": "📜 呈递青词，请皇上批红",
         "btn_redraw": "圣意难测，退回重拟",
         "footer": "大明国库空虚。少干废话，多干实事。",
+        "explain_prefix": "皇上幽幽开口：",
         "quotes": [
-            {"text": "做官要三思：思危、思退、思变。", "role": "吕芳", "advice": "建议：居安思危。提前给自己铺好退路。"},
+            {"text": "做官要三思：思危、思退、思变。", "role": "吕芳", "advice": "建议：居安思危。提前给自己铺好退路。", "detail": "你以为这位置坐稳了？眼下看似太平，实则暗流涌动。不给自己留条后路，等雷劈下来就晚了。"},
             {"text": "长江水清，黄河水浊。只能不因水清而偏用，也只能不因水浊而偏废。", "role": "嘉靖帝", "advice": "建议：接受世界的灰度。别有太高的道德洁癖，用人做事看核心价值。"},
             {"text": "有些事不上称没有四两重，上了称一千斤也打不住。", "role": "杨金水", "advice": "建议：懂得抓大放小。别把小事闹大，也别让人抓住把柄。"},
             {"text": "大明朝只有一个人可以呼风唤雨，那就是皇上。只有一个人可以遮风挡雨，就是我，严嵩。", "role": "严嵩", "advice": "建议：认清局势。在团队里找到自己不可替代的位置。"},
@@ -101,7 +104,7 @@ books_data = {
             {"text": "一两成银子救不了国家！", "role": "张居正", "advice": "建议：看清宏观大局。别在蝇头小利上浪费精力。"},
             {"text": "媳妇熬成婆，最痛恨媳妇的往往就是婆婆。", "role": "嘉靖帝", "advice": "建议：不要低估人性的阴暗面。别以为同病必定相怜。"},
             {"text": "不战而屈人之兵，善之善者也。", "role": "胡宗宪", "advice": "建议：硬碰硬是下策。多用策略和脑子解决问题。"},
-            {"text": "朕的钱！他们拿两百万，朕分一百万！还要朕感谢他们吗？", "role": "嘉靖帝", "advice": "建议：认清核心利益。别让人拿了你的大头，还让你感恩戴德。"},
+            {"text": "朕的钱！他们拿两百万，朕分一百万！还要朕感谢他们吗？", "role": "嘉靖帝", "advice": "建议：认清核心利益。别让人拿了你的大头，还让你感恩戴德。", "detail": "朕富有四海，可这底下的贪官比海还深。你要守住自己的东西，谁敢动你的蛋糕，谁就是朕的敌人。"},
             {"text": "苦一苦百姓，骂名我来担。", "role": "赵贞吉", "advice": "建议：警惕冠冕堂皇的借口。别人揽虚名，代价却是你来承受。"},
             {"text": "一句瞎话，要用十句瞎话来圆。", "role": "吕芳", "advice": "建议：保持诚实。或者干脆闭嘴。撒谎的代价太高。"},
             {"text": "侯非侯，王非王，千乘万骑归邙山！", "role": "沈一石", "advice": "建议：看淡得失。无论眼下争到什么，最终结局都是尘归尘。"},
@@ -118,9 +121,10 @@ books_data = {
         "btn_draw": "🙏 仰仗彪哥，请教这道上的事儿",
         "btn_redraw": "🔄 翻篇了，这就是一场梦",
         "footer": "论成败人生豪迈，大不了重头再来。",
+        "explain_prefix": "彪哥点了根烟说：",
         "quotes": [
-            {"text": "我也不是当初那个我了，你也不是当初那个你了，咱们都回不到当初了。", "role": "范德彪", "advice": "建议：往前看吧，物是人非是常态。"},
-            {"text": "在这场博弈中，我已经看破了你的底牌。", "role": "范德彪", "advice": "建议：自信一点！哪怕其实啥也没看出来，气场不能输。"},
+            {"text": "我也不是当初那个我了，你也不是当初那个你了，咱们都回不到当初了。", "role": "范德彪", "advice": "建议：往前看吧，物是人非是常态。", "detail": "人活着不就那点事儿吗？过去的就让它过去，谁也回不去那个维多利亚了。来，喝了这杯。"},
+            {"text": "在这场博弈中，我已经看破了你的底牌。", "role": "范德彪", "advice": "建议：自信一点！哪怕其实啥也没看出来，气场不能输。", "detail": "你别看我虚，我气势得在那！别人瞅你像个怂包，你就得表现得像个战神。输人不输阵，懂不？"},
             {"text": "那是咔咔一顿挠啊！", "role": "范德彪", "advice": "建议：别整虚的，该拼命的时候就得豁出去。"},
             {"text": "给这位大哥拿瓶维多利亚啤酒，算我账上。", "role": "范德彪", "advice": "建议：格局打开。有时候花点小钱能免大灾。"},
             {"text": "你不用跟我整这景儿，你就直接跟我说，这事儿能不能办？", "role": "范德彪", "advice": "建议：别被花言巧语绕进去。直奔主题看结果。"},
@@ -130,13 +134,33 @@ books_data = {
             {"text": "这辈子，我活的就是个面子！", "role": "范德彪", "advice": "建议：如果底子已经没了，那就死守住最后那点尊严。"},
             {"text": "我不差钱儿，我差的是一个机会。", "role": "范德彪", "advice": "建议：缺啥别缺志气，心态一定要稳住。"}
         ]
+    },
+    "🎵 My Little Airport：獨立音樂宇宙": {
+        "title": "🎧 荔枝角公園",
+        "color": "#4B6584",  # Lo-Fi 憂鬱藍灰
+        "subtitle": "回到那年十八歲的下午，在維港的晚風中聽懂人生。",
+        "btn_draw": "🎵 戴上耳機，按下播放鍵",
+        "btn_redraw": "⏪ 切到下一首",
+        "btn_explain": "❓ 點解",  # 专属的解释按钮文案
+        "footer": "我們在炎熱與抑鬱的夏天，無法停止抽煙。",
+        "explain_prefix": "耳機裡輕輕傳來：",
+        "quotes": [
+            {"text": "我原是世間其中的粒子 / 如何衝擊我都可以", "role": "《九龍公園游泳池》", "detail": ""},
+            {"text": "邊一個發明了返工 / 以為自己好有用", "role": "《邊一個發明了返工》", "detail": ""},
+            {"text": "我若全力追究 / 你也會來去自由", "role": "《失業救濟金》", "detail": ""},
+            {"text": "世界要你努力去考取功名 / 但是真誠才是最大本領", "role": "《驗孕的下晝》", "detail": ""},
+            {"text": "我們在炎熱與抑鬱的夏天，無法停止抽煙", "role": "《我們在炎熱與抑鬱的夏天，無法停止抽煙》", "detail": ""},
+            {"text": "已有多少年沒有上班 / 煩惱為何卻未減", "role": "《My Little Airport》", "detail": ""},
+            {"text": "像打開考試試卷發現 / 突然所有答案都看得見", "role": "《你叫我譯一首德國歌詞》", "detail": ""},
+            {"text": "相士說你屬於那些 /「矛盾波動的千里馬」般狂野", "role": "《相士》", "detail": ""}
+        ]
     }
 }
 
 # 3. 左侧边栏设计
-st.sidebar.title("🔮 答案之书")
-st.sidebar.markdown("你要进入哪个宇宙？")
-book_choice = st.sidebar.radio("", list(books_data.keys()))
+st.sidebar.title("🌌 答案之书")
+st.sidebar.markdown("**请选择你要进入的宇宙：**")
+book_choice = st.sidebar.radio("", list(books_data.keys()), help="每个宇宙都有其独特的生存法则")
 
 # 4. 状态管理
 if 'current_book' not in st.session_state:
@@ -145,20 +169,22 @@ if 'current_book' not in st.session_state:
 if st.session_state.current_book != book_choice:
     st.session_state.drawn = False
     st.session_state.result = None
+    st.session_state.show_detail = False
     st.session_state.current_book = book_choice
 
 if 'drawn' not in st.session_state:
     st.session_state.drawn = False
     st.session_state.result = None
+    st.session_state.show_detail = False
 
 # 5. 获取当前选中的内容
 current_data = books_data[book_choice]
 
-# 6. 主界面渲染 - 这里的 HTML 确保颜色能出来
+# 6. 主界面渲染 - 氛围卡片
 st.markdown(f"""
-    <div style="text-align: center; padding: 20px; border-radius: 10px; background-color: {current_data['color']}20; border-left: 10px solid {current_data['color']};">
+    <div style="text-align: center; padding: 20px; border-radius: 10px; background-color: {current_data['color']}15; border-left: 10px solid {current_data['color']};">
         <h1 style="color: {current_data['color']}; margin-bottom: 0;">{current_data['title']}</h1>
-        <p style="color: #666; font-size: 1.2em; margin-top: 10px;">{current_data['subtitle']}</p>
+        <p style="color: #666; font-size: 1.1em; margin-top: 10px; opacity: 0.9;">{current_data['subtitle']}</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -169,6 +195,7 @@ if not st.session_state.drawn:
     if st.button(current_data["btn_draw"], use_container_width=True):
         st.session_state.result = random.choice(current_data["quotes"])
         st.session_state.drawn = True
+        st.session_state.show_detail = False
         st.rerun()
 else:
     res = st.session_state.result
@@ -176,18 +203,50 @@ else:
     st.info(f"「 {res['text']} 」")
     st.caption(f"—— {res['role']}")
     
-    # 指点区：也带上主题色
-    st.markdown(f"""
-        <div style="padding: 15px; border-radius: 5px; background-color: {current_data['color']}10; border: 1px dashed {current_data['color']};">
-            <span style="color: {current_data['color']}; font-weight: bold;">【批示】</span> {res['advice']}
-        </div>
-        """, unsafe_allow_html=True)
+    # 批示区（只在字典里有 'advice' 时才显示，完美避开 MLA 报错）
+    if 'advice' in res:
+        st.markdown(f"""
+            <div style="padding: 15px; border-radius: 5px; background-color: {current_data['color']}08; border: 1px dashed {current_data['color']};">
+                <span style="color: {current_data['color']}; font-weight: bold;">【批示】</span> <span style="color: #444;">{res['advice']}</span>
+            </div>
+            """, unsafe_allow_html=True)
+        st.markdown("<br>", unsafe_allow_html=True)
     
-    st.markdown("---")
-    
-    if st.button(current_data["btn_redraw"], use_container_width=True):
-        st.session_state.drawn = False
-        st.rerun()
+    # 功能按钮区
+    col1, col2 = st.columns(2)
+    with col1:
+        # 动态获取按钮文案，MLA 是“点解”，其他默认是“这是何意？”
+        btn_text = current_data.get("btn_explain", "❓ 这是何意？")
+        if st.button(btn_text, use_container_width=True):
+            st.session_state.show_detail = True
+    with col2:
+        if st.button(current_data["btn_redraw"], use_container_width=True):
+            st.session_state.drawn = False
+            st.session_state.show_detail = False
+            st.rerun()
+
+    # 详解展示区（带万能回复兜底）
+    if st.session_state.show_detail:
+        # 针对每个宇宙的“万能糊涂话”
+        vague_replies = {
+            "👑 甄嬛传：清宫红墙宇宙": "想来是有些话不便说得太明白，你自己掂量着办吧。",
+            "📻 潜伏：谍影重重宇宙": "这就是个生意，别问那么多，少知道点对你有好处。",
+            "🏮 大明王朝：大明权术宇宙": "圣意难测，若是都能叫你一眼看穿，那还叫圣意吗？",
+            "👨🏻‍🌾 马大帅：辽北硬核宇宙": "这道上的事儿深了去了，你咔咔一顿悟就完事了！",
+            "🎵 My Little Airport：獨立音樂宇宙": "各人有各人的修行"
+        }
+        
+        # 优先取你写的 detail，如果你没写（或者为空），就取万能话
+        detail_text = res.get('detail')
+        if not detail_text:
+            detail_text = vague_replies.get(book_choice, "此间因果，需得你自己参悟。")
+        
+        st.markdown(f"""
+            <div style="margin-top: 10px; padding: 15px; background-color: #f7f9fc; border-radius: 5px; font-style: italic; color: #555;">
+                <strong style="color: {current_data['color']};">{current_data.get('explain_prefix', '解惑：')}</strong><br>
+                “{detail_text}”
+            </div>
+            """, unsafe_allow_html=True)
 
 # 8. 页脚
 st.markdown(f"<br><br><p style='text-align: center; color: gray; font-size: 14px;'>{current_data['footer']}</p>", unsafe_allow_html=True)
